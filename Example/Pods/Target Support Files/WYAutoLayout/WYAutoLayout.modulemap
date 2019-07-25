@@ -1,0 +1,6 @@
+framework module WYAutoLayout {
+  umbrella header "WYAutoLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -22,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8859767622E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */; };
+		8859767922E9B82F00CA2450 /* UILabel+aptateFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */; };
+		8859767C22E9B8A700CA2450 /* UIFont+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767B22E9B8A700CA2450 /* UIFont+Main.m */; };
 		C6630155B5081EC73C141A15 /* Pods_WYAutoLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151A9DC86C391781A1A2AD82 /* Pods_WYAutoLayout_Example.framework */; };
 		EE38CDCDDFC939CA5F9F7211 /* Pods_WYAutoLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C6FEC9E8F8D6A5FE723A11 /* Pods_WYAutoLayout_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -61,12 +64,19 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA69BC402DCB0E1C2535999 /* WYAutoLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WYAutoLayout.podspec; path = ../WYAutoLayout.podspec; sourceTree = "<group>"; };
+		8859767422E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+adaptateScreen.h"; sourceTree = "<group>"; };
+		8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+adaptateScreen.m"; sourceTree = "<group>"; };
+		8859767722E9B82F00CA2450 /* UILabel+aptateFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+aptateFont.h"; sourceTree = "<group>"; };
+		8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+aptateFont.m"; sourceTree = "<group>"; };
+		8859767A22E9B8A700CA2450 /* UIFont+Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Main.h"; sourceTree = "<group>"; };
+		8859767B22E9B8A700CA2450 /* UIFont+Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Main.m"; sourceTree = "<group>"; };
+		8859767D22E9B96A00CA2450 /* WYHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYHead.h; sourceTree = "<group>"; };
+		8AA69BC402DCB0E1C2535999 /* WYAutoLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAutoLayout.podspec; path = ../WYAutoLayout.podspec; sourceTree = "<group>"; };
 		96C6FEC9E8F8D6A5FE723A11 /* Pods_WYAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAutoLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81DB3C5B6A229364D924836 /* Pods-WYAutoLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAutoLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYAutoLayout_Tests/Pods-WYAutoLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6BE8C5CEF15518BFDA3301A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B6BE8C5CEF15518BFDA3301A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EEBEFF70167D24290ABE132F /* Pods-WYAutoLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAutoLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-WYAutoLayout_Tests/Pods-WYAutoLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F10DD7303089C3314CEB2865 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F10DD7303089C3314CEB2865 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,7 @@
 		6003F593195388D20070C39A /* Example for WYAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				8859767322E9AFC300CA2450 /* WYAutoLayout */,
 				6003F59C195388D20070C39A /* WYAppDelegate.h */,
 				6003F59D195388D20070C39A /* WYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +196,20 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8859767322E9AFC300CA2450 /* WYAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8859767422E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.h */,
+				8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */,
+				8859767722E9B82F00CA2450 /* UILabel+aptateFont.h */,
+				8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */,
+				8859767A22E9B8A700CA2450 /* UIFont+Main.h */,
+				8859767B22E9B8A700CA2450 /* UIFont+Main.m */,
+				8859767D22E9B96A00CA2450 /* WYHead.h */,
+			);
+			path = WYAutoLayout;
+			sourceTree = "<group>";
+		};
 		AFF62E23CC4CBA0C30F40D55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +218,6 @@
 				A81DB3C5B6A229364D924836 /* Pods-WYAutoLayout_Tests.debug.xcconfig */,
 				EEBEFF70167D24290ABE132F /* Pods-WYAutoLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,7 +269,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WY;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = wyxlh;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -258,6 +282,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,7 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8859767922E9B82F00CA2450 /* UILabel+aptateFont.m in Sources */,
+				8859767C22E9B8A700CA2450 /* UIFont+Main.m in Sources */,
 				6003F59E195388D20070C39A /* WYAppDelegate.m in Sources */,
+				8859767622E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m in Sources */,
 				6003F5A7195388D20070C39A /* WYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -420,23 +448,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -460,22 +502,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

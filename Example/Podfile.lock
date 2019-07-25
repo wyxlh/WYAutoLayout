@@ -1,0 +1,16 @@
+PODS:
+  - WYAutoLayout (0.1.0)
+
+DEPENDENCIES:
+  - WYAutoLayout (from `../`)
+
+EXTERNAL SOURCES:
+  WYAutoLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WYAutoLayout: 8e8c8d7b6edc1659a1481d18431a099f1c5388d0
+
+PODFILE CHECKSUM: 10a76583122fd74fbd44cf80809ba7259e25f335
+
+COCOAPODS: 1.7.3
