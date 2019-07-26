@@ -71,7 +71,7 @@
 		8859767A22E9B8A700CA2450 /* UIFont+Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Main.h"; sourceTree = "<group>"; };
 		8859767B22E9B8A700CA2450 /* UIFont+Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Main.m"; sourceTree = "<group>"; };
 		8859767D22E9B96A00CA2450 /* WYHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYHead.h; sourceTree = "<group>"; };
-		8AA69BC402DCB0E1C2535999 /* WYAutoLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAutoLayout.podspec; path = ../WYAutoLayout.podspec; sourceTree = "<group>"; };
+		8AA69BC402DCB0E1C2535999 /* WYAutoLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAutoLayout.podspec; path = ../WYAutoLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C6FEC9E8F8D6A5FE723A11 /* Pods_WYAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAutoLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81DB3C5B6A229364D924836 /* Pods-WYAutoLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAutoLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYAutoLayout_Tests/Pods-WYAutoLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6BE8C5CEF15518BFDA3301A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };

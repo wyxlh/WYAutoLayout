@@ -19,7 +19,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WYAutoLayout'
 ```
-
 ## Author
 
 wyxlh, wy_wangyu163@163.com
