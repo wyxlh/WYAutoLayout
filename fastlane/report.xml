@@ -5,47 +5,47 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="3.655193">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="2.597082">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.065902">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.059614">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.096825">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.06994">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="5.379781">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="5.366776">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.012046">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.014427">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: add_git_tag" time="0.019744">
+      <testcase classname="fastlane.lanes" name="5: add_git_tag" time="0.026528">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: push_git_tags" time="5.155279">
+      <testcase classname="fastlane.lanes" name="6: push_git_tags" time="5.346413">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: pod_lib_lint" time="8.639284">
+      <testcase classname="fastlane.lanes" name="7: pod_lib_lint" time="10.539077">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_push" time="0.921656">
+      <testcase classname="fastlane.lanes" name="8: pod_push" time="0.916534">
         
           <failure message="/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:232:in `block in execute_action'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/fast_file.rb:154:in `method_missing'&#10;Fastfile:43:in `block in parsing_binding'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2@global/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2@global/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/fastlane/lib/fastlane/cli_tools_distributor.rb:108:in `take_off'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/gems/fastlane-2.111.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/bin/fastlane:23:in `load'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval'&#10;/Users/wangyu/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push master 'WYAutoLayout.podspec' --allow-warnings' was 1 instead of 0.&#10;[!] To push to the CocoaPods master repo use the `pod trunk push` command.&#10;&#10;If you are using a fork of the master repo for private purposes we recommend to migrate to a clean private repo. To disable this check remove the remote pointing to the CocoaPods master repo.&#10;" />
         
