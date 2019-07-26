@@ -1,5 +1,5 @@
 PODS:
-  - WYAutoLayout (1.0.0)
+  - WYAutoLayout (1.0.1)
 
 DEPENDENCIES:
   - WYAutoLayout (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYAutoLayout: 4acaaa05e0edaf4b5507a1307d46c663defe8e08
+  WYAutoLayout: 3cb136ddc2efa9faaecf15876e6a9b2a6fd7c6cb
 
 PODFILE CHECKSUM: 10a76583122fd74fbd44cf80809ba7259e25f335
 
