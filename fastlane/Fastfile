@@ -16,7 +16,7 @@ podfile: "./Example/Podfile"
 # 2. git add .
 git_add(path: ".")
 #    git commit -m 'xxx'
-git_commit(path: ".", message: "版本升级维护")
+git_commit(path: ".", message: "根据比例来适配")
 #    git push origin master
 push_to_git_remote
 

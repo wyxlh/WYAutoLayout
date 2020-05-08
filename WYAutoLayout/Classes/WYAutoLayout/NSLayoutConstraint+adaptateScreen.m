@@ -18,13 +18,7 @@
 - (void)setIsAdaptateScreen:(BOOL)isAdaptateScreen {
     //比例
     CGFloat proportion = 1.0;
-    if (Is_IPHONE5) {
-        //如果是 iPhone5比例设置为0.85
-        proportion = 0.85;
-    }else if (Is_IPHONE6Plus || Is_IPHONEX || Is_IPHONEXs || Is_IPHONEXs_Max || Is_IPHONEXr) {
-        //如果是 6P,X,XS 或者 XS_MAX设置为 1.12
-        proportion = 1.12;
-    }
+    proportion = proportion*prpt;
     //设置新的约束值
     self.constant = self.constant * proportion;
 }

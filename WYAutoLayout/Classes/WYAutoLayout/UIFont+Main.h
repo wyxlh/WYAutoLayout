@@ -28,13 +28,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (UIFont *)wy_boldSystemFontOfSize:(CGFloat)fontSize;
 
-/**
- 字体适配大小
-
- @return 字体大小
- */
-+ (CGFloat)wy_FontScaleSize;
-
 
 
 

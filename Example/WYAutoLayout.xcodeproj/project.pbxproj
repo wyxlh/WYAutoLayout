@@ -22,9 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8859767622E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */; };
-		8859767922E9B82F00CA2450 /* UILabel+aptateFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */; };
-		8859767C22E9B8A700CA2450 /* UIFont+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859767B22E9B8A700CA2450 /* UIFont+Main.m */; };
 		C6630155B5081EC73C141A15 /* Pods_WYAutoLayout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151A9DC86C391781A1A2AD82 /* Pods_WYAutoLayout_Example.framework */; };
 		EE38CDCDDFC939CA5F9F7211 /* Pods_WYAutoLayout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C6FEC9E8F8D6A5FE723A11 /* Pods_WYAutoLayout_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -64,13 +61,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8859767422E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+adaptateScreen.h"; sourceTree = "<group>"; };
-		8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+adaptateScreen.m"; sourceTree = "<group>"; };
-		8859767722E9B82F00CA2450 /* UILabel+aptateFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+aptateFont.h"; sourceTree = "<group>"; };
-		8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+aptateFont.m"; sourceTree = "<group>"; };
-		8859767A22E9B8A700CA2450 /* UIFont+Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Main.h"; sourceTree = "<group>"; };
-		8859767B22E9B8A700CA2450 /* UIFont+Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Main.m"; sourceTree = "<group>"; };
-		8859767D22E9B96A00CA2450 /* WYHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYHead.h; sourceTree = "<group>"; };
 		8AA69BC402DCB0E1C2535999 /* WYAutoLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WYAutoLayout.podspec; path = ../WYAutoLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C6FEC9E8F8D6A5FE723A11 /* Pods_WYAutoLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYAutoLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A81DB3C5B6A229364D924836 /* Pods-WYAutoLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYAutoLayout_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WYAutoLayout_Tests/Pods-WYAutoLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +132,6 @@
 		6003F593195388D20070C39A /* Example for WYAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				8859767322E9AFC300CA2450 /* WYAutoLayout */,
 				6003F59C195388D20070C39A /* WYAppDelegate.h */,
 				6003F59D195388D20070C39A /* WYAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,20 +183,6 @@
 				B6BE8C5CEF15518BFDA3301A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		8859767322E9AFC300CA2450 /* WYAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				8859767422E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.h */,
-				8859767522E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m */,
-				8859767722E9B82F00CA2450 /* UILabel+aptateFont.h */,
-				8859767822E9B82F00CA2450 /* UILabel+aptateFont.m */,
-				8859767A22E9B8A700CA2450 /* UIFont+Main.h */,
-				8859767B22E9B8A700CA2450 /* UIFont+Main.m */,
-				8859767D22E9B96A00CA2450 /* WYHead.h */,
-			);
-			path = WYAutoLayout;
 			sourceTree = "<group>";
 		};
 		AFF62E23CC4CBA0C30F40D55 /* Pods */ = {
@@ -389,10 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8859767922E9B82F00CA2450 /* UILabel+aptateFont.m in Sources */,
-				8859767C22E9B8A700CA2450 /* UIFont+Main.m in Sources */,
 				6003F59E195388D20070C39A /* WYAppDelegate.m in Sources */,
-				8859767622E9B02100CA2450 /* NSLayoutConstraint+adaptateScreen.m in Sources */,
 				6003F5A7195388D20070C39A /* WYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -24,5 +24,9 @@
 //判断iPhoneXs Max
 #define Is_IPHONEXs_Max   CGSizeEqualToSize([[UIScreen mainScreen] preferredMode].size,CGSizeMake(1242, 2688))
 
+#define ScreenWidth       [UIScreen mainScreen].bounds.size.width
+/// 比例
+#define prpt              ScreenWidth/750.0f*2
+
 
 #endif /* WYHead_h */

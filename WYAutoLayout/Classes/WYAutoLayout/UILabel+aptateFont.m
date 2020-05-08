@@ -8,6 +8,7 @@
 
 #import "UILabel+aptateFont.h"
 #import "UIFont+Main.h"
+#import "WYHead.h"
 
 @implementation UILabel (aptateFont)
 
@@ -17,7 +18,7 @@
 
 - (void)setIsAdapterFont:(BOOL)isAdapterFont {
     BOOL isBold = [self.font.fontName hasSuffix:@"-Bold"];
-    CGFloat adapterSize = self.font.pointSize + [UIFont wy_FontScaleSize];
+    CGFloat adapterSize = self.font.pointSize*prpt;
     if(isBold) {
         self.font = [UIFont boldSystemFontOfSize:adapterSize];
     } else {

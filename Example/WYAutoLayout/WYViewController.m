@@ -7,6 +7,7 @@
 //
 
 #import "WYViewController.h"
+#import "WYHead.h"
 
 @interface WYViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"%f",prpt);
 }
 
 - (void)didReceiveMemoryWarning
